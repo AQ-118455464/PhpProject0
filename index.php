@@ -58,6 +58,7 @@
     <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/maps.jpg" alt="">
       <h1 class="text-uppercase mb-0">Aimee Quigley</h1>
+      
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">1st Year Student in BIS</h2>
     </div>
@@ -77,6 +78,8 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <h3>Aimee Jayne Quigley</h3>
+                
+               
                 
               </div>
             </div>
@@ -98,6 +101,9 @@
             <br>
 
           </form>
+          <h3> My Project Links </h3>
+           <a href="https://github.com/AQ-118455464/PhpProject0.git"> Github </a>
+                <a href=""> Heroku </a>
         </div>
       </div>
     </div>
