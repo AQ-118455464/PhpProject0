@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <b><h1>Strategic Consulting Services</h1></b>
+ 
+</div>
+    
+        <ul>
+  <li><a class="active" href="#home">Services</a></li>
+  <li><a href="AboutUs.html">About Us</a></li>
+  <li><a href="Ebus1.php">eBusiness</a></li>
+  
+</ul>
+
+
+
+<div class="row">
+  <div class="column">
+      <b><h2>Blockchain</h2></b>
+    <p>Using cryptography to keep exchanges secure, blockchain provides a decentralized database, or “digital ledger”, of transactions that everyone on the network can see. This network is essentially a chain of computers that must all approve an exchange before it can be verified and recorded.</p>
+    
+    <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/">Link to Blockchain</a>
+  </div>
+  
+  <div class="column">
+      <b><h2>Immersive Experience</h2></b>
+    <p> Immersive learning is the process of learning with the usage of a simulated or artificial environment. The environment enables the learners to completely get immersed in the learning and in a way that feels like experiencing an actual learning environment.</p>
+    
+    <a href="https://vismedia.agency/what-is-an-immersive-experience/">Link to Immersive Experience</a>
+  </div>
+  
+  <div class="column">
+      <b><h2>Autonomous Things</h2></b>
+    <p>an emerging term for the technological developments that are expected to bring computers into the physical environment as autonomous entities without human direction, freely moving and interacting with humans and other objects.</p>
+    
+    <a href="https://www.techopedia.com/definition/33723/autonomous-things">Link to Autonomous Things</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
